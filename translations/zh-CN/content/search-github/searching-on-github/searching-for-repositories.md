@@ -154,7 +154,11 @@ ms.locfileid: '147527932'
 
 您可以根据仓库的可见性过滤搜索。 有关详细信息，请参阅“[关于存储库](/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility)”。
 
-| 限定符  | 示例 | ------------- | ------------- |{% ifversion fpt or ghes or ghec %} | `is:public` | [**is:public org:github**](https://github.com/search?q=is%3Apublic+org%3Agithub&type=Repositories) 匹配由 {% data variables.product.company_short %} 所有的公共存储库。{% endif %}{% ifversion ghes or ghec or ghae %} | `is:internal` | [**is:internal test**](https://github.com/search?q=is%3Ainternal+test&type=Repositories) 匹配你可以访问且包含“test”一词的内部存储库。{% endif %} | `is:private` | [**is:private pages**](https://github.com/search?q=is%3Aprivate+pages&type=Repositories) 匹配你可以访问且包含“pages”一词的专用存储库。
+| 限定符  | 示例
+| ------------- | ------------- |{% ifversion fpt or ghes or ghec %}
+| `is:public` | [**is:public org:github**](https://github.com/search?q=is%3Apublic+org%3Agithub&type=Repositories) 匹配由 {% data variables.product.company_short %} 所有的公共存储库。{% endif %}{% ifversion ghes or ghec or ghae %}
+| `is:internal` | [**is:internal test**](https://github.com/search?q=is%3Ainternal+test&type=Repositories) 匹配你可以访问且包含“test”一词的内部存储库。{% endif %}
+| `is:private` | [**is:private pages**](https://github.com/search?q=is%3Aprivate+pages&type=Repositories) 匹配你可以访问且包含“pages”一词的专用存储库。
 
 {% ifversion fpt or ghec %}
 
